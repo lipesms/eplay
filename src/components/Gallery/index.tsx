@@ -35,6 +35,7 @@ const Gallery = ({ defaultCover, name, items }: Props) => {
     if (item.type === 'image') return zoom
     return play
   }
+
   const closeModal = () =>
     setModal({
       isVisible: false,

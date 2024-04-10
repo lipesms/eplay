@@ -15,6 +15,7 @@ export const formatePrice = (preco = 0) => {
     currency: 'BRL'
   }).format(preco)
 }
+
 const ProductsList = ({ background, title, games }: Props) => {
   const catchGameTags = (game: Game) => {
     const tags = []

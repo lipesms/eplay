@@ -18,11 +18,12 @@ export const Action = styled.div`
 
 export const Items = styled.ul`
   display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
 `
 
 export const Item = styled.li`
   position: relative;
-  margin-right: 16px;
 
   > img {
     border: 2px solid ${cores.branca};

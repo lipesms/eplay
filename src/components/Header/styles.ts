@@ -1,6 +1,6 @@
 import { styled } from 'styled-components'
 
-import { breackpoints, cores } from '../../styles'
+import { breackpoints, colors } from '../../styles'
 
 export const Links = styled.ul`
   display: flex;
@@ -13,13 +13,13 @@ export const Links = styled.ul`
 `
 
 export const HeaderBar = styled.header`
-  background-color: ${cores.cinza};
+  background-color: ${colors.grey};
   padding: 24px;
   border-radius: 16px;
   margin-bottom: 80px;
 
   a {
-    color: ${cores.branca};
+    color: ${colors.white};
     text-decoration: none;
     font-weight: bold;
   }
@@ -90,7 +90,7 @@ export const Hamburguer = styled.div`
     width: 100%;
     height: 2px;
     display: block;
-    background-color: ${cores.branca};
+    background-color: ${colors.white};
     margin-bottom: 4px;
   }
 

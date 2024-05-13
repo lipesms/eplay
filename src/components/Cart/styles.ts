@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { cores } from '../../styles'
+import { colors } from '../../styles'
 import { TagContainer } from '../Tag/styles'
 import { ButtonContainer } from '../Button/styles'
 import close from '../../assets/images/hero/fechar.png'
@@ -31,7 +31,7 @@ export const SideBar = styled.aside`
   max-width: 360px;
   width: 100%;
   padding: 40px 16px 0 16px;
-  background-color: ${cores.cinza};
+  background-color: ${colors.grey};
   z-index: 1;
   ${ButtonContainer} {
     max-width: 100%;
@@ -45,21 +45,21 @@ export const Prices = styled.p`
   span {
     display: block;
     font-size: 12px;
-    color: ${cores.cinzaClaro};
+    color: ${colors.lightGrey};
   }
 `
 
 export const Quantity = styled.p`
   font-weight: bold;
   font-size: 16px;
-  color: ${cores.branca};
+  color: ${colors.white};
   margin: 32px 0 16px;
 `
 export const CartItem = styled.li`
   position: relative;
   display: flex;
   padding: 8px 0;
-  border-bottom: 1px solid ${cores.cinzaClaro};
+  border-bottom: 1px solid ${colors.lightGrey};
 
   img {
     height: 80xp;
@@ -71,13 +71,13 @@ export const CartItem = styled.li`
   h3 {
     font-size: 16px;
     font-weight: bold;
-    color: ${cores.branca};
+    color: ${colors.white};
   }
   span {
     display: block;
     font-size: 14px;
     font-weight: bold;
-    color: ${cores.branca};
+    color: ${colors.white};
   }
 
   ${TagContainer} {
